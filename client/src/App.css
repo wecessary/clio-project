@@ -1,0 +1,61 @@
+.header{
+    background-image: linear-gradient(to right, #df81fa , #8d5af5);
+    padding-top:2rem;
+    padding-bottom:1rem;
+    padding-left:2rem;
+    /* color:white; */
+    /* text-align:center; */
+    margin-bottom:2rem;
+}
+
+.resultsChunk{
+    padding-top:1rem;
+}
+
+.statusChunk-ok {
+    background:#5af58d;
+    color:white;
+    border-radius: 10px;
+    text-align:center;
+    padding:0.1rem;
+}
+.statusChunk-bad {
+    background:red;
+    color:white;
+    border-radius: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left:0.5rem;
+  }
+
+p{
+    margin-bottom:0rem;
+    color:#242424;
+}
+
+.regionHeader {
+    color:#242424;
+    text-align:center;
+
+}
+
+.statusMessage{
+    text-align:center;
+    padding-top:3rem;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    border: 1px solid #242424;
+    margin: 0.2rem;
+    border-radius: 15px;
+    padding:1rem;
+}
+
